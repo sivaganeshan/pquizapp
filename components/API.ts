@@ -1,4 +1,4 @@
-import {shuffleArray} from '../pages/utils';
+import {shuffleArray} from './utils';
 
 export enum Difficulty{
     EASY="easy",

@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import QuestionCard from '../components/QuestionCard';
 import {fetchQuizQuestions, Difficulty, QuesyionState} from '../components/API';
-import {GlobalStyle,Wrapper} from './App.style';
+import {GlobalStyle,Wrapper} from '../components/App.style';
 import usePremiumStatus from "../stripe/usePremiumStatus";
 import firebase from "../firebase/firebaseClient";
 import {useAuthState} from "react-firebase-hooks/auth";
