@@ -1,0 +1,17 @@
+.container{
+    background: rgb(25,100,168);
+    background: -moz-linear-gradient(0deg, rgba(25,100,168,1) 45%, rgba(0,145,252,0.8183648459383753) 100%, rgba(2,0,36,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(25,100,168,1) 45%, rgba(0,145,252,0.8183648459383753) 100%, rgba(2,0,36,1) 100%);
+    background: linear-gradient(0deg, rgba(25,100,168,1) 45%, rgba(0,145,252,0.8183648459383753) 100%, rgba(2,0,36,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1964a8",endColorstr="#020024",GradientType=1);
+        background-size: cover;
+        margin: 0;
+        padding: 0 20px;
+        display: flex;
+        justify-content: center;
+        font-family: 'Catamaran', sans-serif;
+        box-sizing: border-box;
+        height: 100%;
+        font-weight: 700;
+}
+
